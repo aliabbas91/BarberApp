@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container ul{
+    height: 70px;
+    list-style: none;
+    align-items: center;
+    display: flex ;
+    justify-content: end;
+    gap: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    
+}
+ul a{
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn8{
+    background-color: red;
+    gap: 20px;
+    align-items: center;
+    height: 70px;
+    padding: 20px 40px;
+}
+li a:hover{
+    color: red;
+    transition: 0.5s ease;
+}
+.booking{
+    display: flex;
+    background-color: #212529;
+    color: rgb(252, 248, 248);
+    justify-content: space-between;
+    
+}
+.main_image{
+    width: 800px;
+    height: 800px;
+    
+}
+.booking_heading{
+    margin-top: 250px;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 120px;
+}
+.booking_para{
+    margin-top: 20px;
+    font-size: 25px;
+    padding-left: 120px;
+}
+.book_now{
+    text-decoration: none;
+    margin:40px 120px ;
+    height: 60px;
+    width: 180px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.book_now:hover{
+    background-color: white;
+    color: red;
+    transition: 0.6s ease;
+}
+
+.stylling_section{
+    display: flex;
+    
+    
+}
+
+
+.tick_icon{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px ;
+    margin-top: 80px;
+
+}
+.tick_icon2{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+
+.tick_icon3{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+
+}
+
+.tick_icon4{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+.styling_para1{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+} 
+.styling_para2{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+}  
+.styling_para3{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+} 
+.styling_para4{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+    font-size: 20px;
+}
+.book_btn{
+    text-decoration: none;
+    width: 180px;
+    height: 60px;
+    border-color: red;
+    background-color: white;
+    color: red;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.book_btn:hover{
+    background-color: red;
+    color: white;
+    transition: 0.6s ease;
+}
+.styling_image{
+    margin-top: 70px;
+    height: 500px;
+    width: 400px;
+    padding-left: 85px;
+}
+.about{
+    padding-left: 80px;
+}
+.about_heading{
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 280px;
+}
+.about_para{
+    color: #675e5e;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 80px;
+    
+}
+.hair_styles{
+    display: flex;
+    margin-top: 120px;
+}
+.prices{
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.prices h1{
+    padding-left: 20px;
+    font-size: 45px;
+}
+.feature1{
+    margin-top: 90px;
+    font-size: 20px;
+    
+}
+.feature2{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.feature3{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.feature4{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.feature5{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.hair_images{
+    height: 450px;
+}
+.from{
+    padding-left: 100px;
+}
+.from1{
+    padding-left: 168px;
+}
+.from2{
+    padding-left: 175px;
+}
+.dollar{
+    color: red;
+}
+
+.hair_beard_styling{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all_we_do{
+    font-size: 40px;
+}
+.for_hair{
+    margin-top: 40px;
+    background-color: red;
+    padding: 20px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.feature_1{
+    margin-top: 60px;
+    font-size: 20px;
+    
+}
+.feature_2{
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.feature_3{
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.feature_4{
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.from_1{
+    padding-left: 210px;
+}
+.from_2{
+    padding-left: 117px;
+}
+.from_3{
+    padding-left: 185px;
+}
+.from_4{
+    padding-left: 195px;
+}
+.dollars{
+    color: red;
+}
+.for_beard{
+    margin-top: 40px;
+    background-color: rgb(5, 5, 5);
+    padding: 20px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold; 
+}
+.cards{ 
+    margin-top: 140px;
+    display: flex;
+    background-image: url(hairdesign.png);
+    height: 200px;
+   
+    
+}
+.cards1{
+    margin-top: 100px;
+    justify-content: space-between;
+    height: 30px;
+    width: 40px;
+    background-color: #675e5e;
+    color: white;
+}
+.stylish_hair_cut{
+    color: white;
+    padding:29px 100px;
+}
+
+.cut_hair_style{
+    color: white;
+    padding:29px 100px;
+
+}
+.color_hair_wash{
+    color: white;
+    padding: 29px 100px;
+}
+.card_para{
+    color: white;
+}
+.customers_about_us{
+    margin-top: 170px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.customers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+.wilma{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.customer1{
+    padding: 20px;
+    margin: 30px;
+    border-style: inset;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10px;
+    color: #675e5e;
+   
+}
+.customer_image1{
+    padding-left: 2px;
+    margin-top: 30px;
+}
+.customer_image2{
+    margin-top: 30px;
+}
+.customer_image3{
+    margin-top: 30px;
+}
