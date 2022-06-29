@@ -4,7 +4,7 @@
     padding: 0px;
 }
 .navbar{
-    background-color: black;
+    background-color: #150303;
     color: white;
     
    
@@ -38,6 +38,7 @@ ul a{
     font-size: 30px;
     font-weight: bolder;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -115px;
 }
 .btn8{
     background-color: red;
@@ -52,7 +53,7 @@ li a:hover{
 }
 .booking{
     display: flex;
-    background-color: #212529;
+    background-color: #150303;
     color: rgb(252, 248, 248);
     justify-content: space-between;
     
@@ -358,6 +359,39 @@ li a:hover{
 .card_para{
     color: white;
 }
+.cards{
+    color: white;
+}
+.card_2_para{
+    color: white;
+}
+.card_3_para{
+    color: white;
+}
+.stylish_hair_cut:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.cut_hair_style:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.color_hair_wash:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.card_para:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.card_2_para:hover{
+    color: red;
+    transition: 0.4s ease;
+}
+.card_3_para:hover{
+    color: red;
+    transition: 0.4s ease;
+}
 .customers_about_us{
     margin-top: 170px;
     text-align: center;
@@ -395,4 +429,131 @@ li a:hover{
 }
 .customer_image3{
     margin-top: 30px;
+}
+.footer{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #150303;
+    height: 300px;
+    align-items: center;
+}
+
+.contact{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.contact_num{
+    margin-top: 20px;
+    color: #928888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email{
+    margin-top: 20px;
+    color: #928888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.narosundar{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+  
+
+}
+.narosundar_para{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#928888 ;
+    width: 200px;
+    margin-top: 30px;
+}
+.fas{
+   color: red;
+   margin-bottom: 20px;
+}
+.mustache{
+    padding-left: 45px;
+}
+.fab{
+    padding-left: 20px;
+    margin:30px 10px;
+    border-radius: 50%;
+    color: white;
+}
+.fab:hover{
+    color: red;
+    transition: 0.5s ease;
+}
+
+
+@media screen and (max-width: 660px) {
+    .main_image{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .stylling_section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .hair_styles{
+        display: flex;
+        flex-direction: column; 
+    }
+}
+
+@media screen and (max-width: 660px){
+    .hair_beard_styling{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .hair_images{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .hair_cutting_image{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .cards{
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .customers{
+        display: flex;
+        flex-direction: column;
+        align-items: center ;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .footer{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        align-items: center;
+    }
 }
