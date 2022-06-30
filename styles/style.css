@@ -329,8 +329,9 @@ li a:hover{
 .cards{ 
     margin-top: 140px;
     display: flex;
-    background-image: url(hairdesign.png);
+    background-image: url(../assets/hairdesign.png);
     height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
    
     
 }
@@ -508,7 +509,7 @@ li a:hover{
     .hair_styles{
         display: flex;
         flex-direction: column;
-        text-align:right; 
+         
     }
 }
 
@@ -587,5 +588,99 @@ li a:hover{
 @media screen and (max-width: 660px){
 .btn8{
     display: none;
+}
+}
+
+@media screen and (max-width: 660px){
+    .stylish_hair_cut{
+        text-align: center;
+        
+}
+}
+@media screen and (max-width: 660px){
+.card_para{
+    text-align: center;
+}
+}
+@media screen and (max-width: 660px){
+.cut_hair_style{
+    text-align: center;
+}
+}
+
+@media screen and (max-width: 660px){
+    .card_2_para{
+        text-align: center;
+    }
+    }
+
+    @media screen and (max-width: 660px){
+
+    .color_hair_wash{
+         text-align: center; 
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    .card_3_para{
+         text-align: center; 
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    .all_we_do{
+         text-align: center; 
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    .trim{
+         padding-left: 20px; 
+    }
+}
+
+@media screen and (max-width: 660px){
+
+    .special_beard{
+         padding-left: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 660px){
+
+    .color_beard{
+         padding-left: 20px; 
+    }
+}
+
+
+@media screen and (max-width: 660px){
+
+    .wax_beard{
+         padding-left: 20px; 
+    }
+}
+
+@media screen and (max-width: 660px){
+.hair_cutting_image{
+    margin-top: 30px;
+}
+}
+
+@media screen and (max-width: 660px){
+
+.price_heading{
+  margin-left: 60px;
+  margin-top: 80px;
+}
+}
+
+@media screen and (max-width: 660px){
+.special_beard_treatement{
+  text-align: right;
 }
 }
