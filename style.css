@@ -507,7 +507,8 @@ li a:hover{
 @media screen and (max-width: 660px){
     .hair_styles{
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+        text-align:right; 
     }
 }
 
@@ -556,4 +557,35 @@ li a:hover{
         height: 600px;
         align-items: center;
     }
+}
+
+@media screen and (max-width: 660px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 660px){
+    .logo{
+        text-align: center;
+        display: none;
+}
+}
+@media screen and (max-width: 660px){
+    .ul_items{
+        font-size: 10px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .mustaches{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px){
+.btn8{
+    display: none;
+}
 }
