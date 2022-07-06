@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: #150303;
+    color: white;
+    
+   
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container ul{
+    height: 70px;
+    list-style: none;
+    align-items: center;
+    display: flex ;
+    justify-content: end;
+    gap: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    
+}
+ul a{
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.logo{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -115px;
+}
+.btn8{
+    background-color: red;
+    gap: 20px;
+    align-items: center;
+    height: 70px;
+    padding: 20px 40px;
+}
+li a:hover{
+    color: red;
+    transition: 0.5s ease;
+}
+
+.aboutus{
+    display: flex;
+    background-color: #150303;
+    color: rgb(252, 248, 248);
+    justify-content: space-between;
+    
+}
+.main_image{
+    width: 800px;
+    height: 500px;
+    
+}
+.aboutus_heading{
+    margin-top: 250px;
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 120px;
+}
+
+.stylling_section{
+    display: flex;
+    
+    
+}
+
+
+.tick_icon{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px ;
+    margin-top: 80px;
+
+}
+.tick_icon2{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+
+.tick_icon3{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+
+}
+
+.tick_icon4{
+    width: 50px;
+    height: 50px;
+    background-color: #e7b3a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52px;
+    margin-top: 20px;
+}
+.styling_para1{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+} 
+.styling_para2{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+}  
+.styling_para3{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+} 
+.styling_para4{
+    margin-top: -50px;
+    padding-left: 137px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: #675e5e;
+    font-size: 20px;
+}
+.book_btn{
+    text-decoration: none;
+    width: 180px;
+    height: 60px;
+    border-color: red;
+    background-color: white;
+    color: red;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.book_btn:hover{
+    background-color: red;
+    color: white;
+    transition: 0.6s ease;
+}
+.styling_image{
+    margin-top: 70px;
+    height: 500px;
+    width: 400px;
+    padding-left: 85px;
+}
+.about{
+    padding-left: 80px;
+}
+.about_heading{
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 325px;
+    
+}
+.about_para{
+    color: #675e5e;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 80px;
+    
+}
+
+
+@media screen and (max-width: 660px) {
+    .main_image{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 660px){
+    .logo{
+        text-align: center;
+        display: none;
+}
+}
+@media screen and (max-width: 660px){
+    .ul_items{
+        font-size: 10px;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .mustaches{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px){
+.btn8{
+    display: none;
+}
+}
+
+@media screen and (max-width: 660px){
+    .stylling_section{
+        display: flex;
+        flex-direction: column;
+    }
+}

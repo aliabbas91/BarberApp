@@ -243,20 +243,30 @@ li a:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
+  
 }
 }
 
 @media screen and (max-width: 660px){
 .image2{
     margin-top: 10px;
+    width: 80%;
 }
 }
 
 @media screen and (max-width: 660px){
     .image3{
         margin-top: 10px;
+        width: 80%;
     }
     }
+
+    @media screen and (max-width: 660px){
+        .image1{
+            
+            width: 80%;
+        }
+        }
 
     @media screen and (max-width: 660px){
         .images_2{
@@ -269,11 +279,21 @@ li a:hover{
         @media screen and (max-width: 660px){
         .images5{
             margin-top: 10px;
+            width: 80%;
         }
         }
         
         @media screen and (max-width: 660px){
             .images6{
                 margin-top: 10px;
+                width: 80%;
+            }
+            }
+
+            
+        @media screen and (max-width: 660px){
+            .images4{
+                
+                width: 80%;
             }
             }
